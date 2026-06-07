@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Echo current time
-        run: echo "The time of the server is &(date)"
+        run: echo "The time of the server is $(date)"
